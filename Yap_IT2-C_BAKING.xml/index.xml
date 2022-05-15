@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE baking [
+	<!ELEMENT baking (recipe, about-us, author, blog)>
+	<!ELEMENT recipe (food-name, discription, ingedients, direction)>
+    <!ELEMENT about-us (info)>
+    <!ELEMENT author (qoutes, full-name, years-old, address, course, school)>
+    <!ELEMENT blog (title, publisher, date, time, viewer, blog-info)>
+
+	<!ELEMENT recipe (#PCDATA)>
+    <!ELEMENT food-name (#PCDATA)>
+    <!ELEMENT discription (#PCDATA)>
+    <!ELEMENT ingedients (#PCDATA)>
+    <!ELEMENT direction (#PCDATA)>
+    <!ELEMENT about-us (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT qoutes (#PCDATA)>
+    <!ELEMENT full-name (#PCDATA)>
+    <!ELEMENT years-old (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT course (#PCDATA)>
+    <!ELEMENT school (#PCDATA)>
+    <!ELEMENT publisher (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT time (#PCDATA)>
+    <!ELEMENT viewer (#PCDATA)>
+    <!ELEMENT blog-info (#PCDATA)>
+
+]>
+
+<baking>
+	<recipe id="recipe1">
+		<food-name>Danish Pastries</food-name>
+        <discription>A Danish pastry, sometimes shortened to just Danish, is a multilayered, laminated sweet pastry in the viennoiserie tradition.</discription>
+        <ingedients>2 cups unsalted butter, softened, ⅔ cup all-purpose flour, 2 ½ cups mil, ½ cup white sugar, 2 teaspoons salt, 4 ½ teaspoons active dry yeast, cups all-purpose flour, 2 eggs, 1 teaspoon lemon extract, and 1 teaspoon almond extract</ingedients>
+        <direction>Step 1. In a medium bowl, cream together the butter and 2/3 cup of flour. Divide into 2 equal parts, and roll each half between 2 pieces of waxed paper into a 6 x12 inch sheet. Refrigerate.
+						Step 2. In a large bowl, mix together the dry yeast and 3 cups of the remaining flour. In a small saucepan over medium heat, combine the milk, sugar and salt. Heat to 115 degrees F (43 degrees C), or just warm, but not hot to the touch. Mix the warm milk mixture into the flour and yeast along with the eggs, and lemon and almond extracts. Stir for 3 minutes. Knead in the remaining flour 1/2 cup at a time until the dough is firm and pliable. Set aside to rest until double in size.
+						Step 3. Cut the dough in half, and roll each half out to a 14 inch square. Place one sheet of the cold butter onto each piece of dough, and fold the dough over it like the cover of a book. Seal edges by pressing with fingers. Roll each piece out to a 20x 12 inch rectangle, then fold into thirds by folding the long sides in over the center. Repeat rolling into a large rectangle, and folding into thirds. Wrap in plastic and refrigerate for at least 30 minutes.
+						Step 4. Remove from the refrigerator one at a time, and roll and fold each piece two more times. Return to the refrigerator to chill again before shaping. If the butter gets too warm, the dough will become difficult to manage.
+						Step 5. To make danishes, roll the dough out to 1/4 inch thickness. The dough can be cut into squares, with a filling placed in the center. Fold 2 of the corners over the center to form a filled diamond shape. Or, fold the piece in half, cut into 1 inch strips, stretch, twist and roll into a spiral. Place a dollop of preserves or other filling in the center. Place danishes on an ungreased baking sheet, and let rise until doubled. Preheat the oven to 450 degrees F (220 degrees C). Danishes can be brushed with egg white for a shiny finish.
+						Step 6. Bake for 8 to 10 minutes in the preheated oven, or until the bottoms are golden brown</direction>
+	</recipe>
+
+<recipe id="recipe2">
+		<food-name>Buko Pie</food-name>
+        <discription>Buko pie is a Filipino type of pie made out of semi flaky pastry filled with custard made out of young coconut meat and condensed milk.</discription>
+        <ingedients>4 eggs, 2 (12 fluid ounce) cans evaporated milk, 1 buko (fresh coconut), meat grated, (14 ounce) can sweetened condensed milk, ¼ cup white sugar, 1 pinch salt</ingedients>
+        <direction>Step 1. Preheat oven to 350 degrees F (175 degrees C).
+				   Step 2. Beat eggs in a bowl; add evaporated milk, buko, sweetened condensed milk, white sugar, and salt. Mix until well blended; pour into a round 3-quart baking dish. Place baking dish in a large baking pan and fill pan with enough water to come halfway up the sides of the dish.
+				   Step 3. Bake in the preheated oven until a toothpick inserted in the center comes out clean, about 1 hour.</direction>
+	</recipe>
+
+<recipe id="recipe3">
+		<food-name>Cappuccino Cake</food-name>
+        <discription>This coffee cake is pretty much every coffee lover’s dream come true, with a soft and moist coffee and walnut sponge,and an incredibly fluffy.</discription>
+        <ingedients>250g pack butter , softened, 250g light soft brown sugar plus 2-3 tbsp, 300g self-raising flour, 4 eggs , beaten, 50g walnuts , toasted and finely chopped (a food processor is easiest), optional, 200ml very strong coffee (made fresh or with instant), cooled, 500g tub mascarpone, 2 tbsp light soft brown sugar, Cocoa powder or drinking chocolate to decorate.</ingedients>
+        <direction>Step 1. Heat oven to 180C/fan 160C/gas 4. Butter 2 x 20cm sandwich tins and line the bottoms with greaseproof paper. Beat butter and sugar together with electric beaters until pale and creamy. Add the fl our and eggs in one go and keep beating until evenly mixed. Fold in the walnuts (if using) and half of the coffee. Spoon the mix into the prepared tins and bake for 25-30 mins or until golden and well risen.
+				   Step 2. Leave the cakes in their tins for 5 mins before turning onto a wire rack. Sweeten the remaining coffee with the extra sugar and sprinkle 4 tbsp over the sponges. Leave to cool completely.
+				   Step 3. While the cakes cool, make the frosting. Tip the mascarpone into a large bowl and beat in the sugar and remaining coffee until smooth and creamy. Use about half of the frosting to sandwich the sponges together then, using a palette or cutlery knife, spread the rest of the frosting over the top of the cake. Decorate with a dusting of cocoa powder or drinking chocolate. If you’re making this cake to eat at home, it will keep covered in the fridge for 2-3 days.</direction>
+	</recipe>
+
+<about-us>
+         <info>We're all about making baking easier for everyone. A perfectly baked moist cake is one of life’s simple pleasures. Baking cakes at home can be just as fun as eating them as long as you have the right recipes!</info>
+</about-us>
+
+<author>
+      <qoutes>"I believe that this website will help an individual who want to learn baking."</qoutes>
+      <full-name>Reynan Merjan Yap</full-name>
+      <years-old>21</years-old>
+      <address>Masiga, Gasan, Marinduque</address>
+      <course>Information Technology (it)</course>
+      <school>Marinduque State College</school>
+</author>
+
+<blog id="blog1">
+    <title>Apple Pie</title>
+    <publisher>Reynan Yap</publisher>
+    <date>05/14/2022</date>
+    <time>10:30</time>
+    <viewer>114</viewer>
+    <blog-info>This apple pie recipe is easy to make from scratch! With a flaky, buttery pie crust and a sweet homemade apple pie filling, this apple pie is guaranteed to be a favorite. It’s perfect for the holidays or a weekend dessert.Homemade apple pie is a classic dessert recipe that’s especially perfect for fall. But really, who wouldn’t love a slice of apple pie any time of year?. Making a pie from scratch can seem difficult, but it is actually really easy. If making pie dough from scratch intimidates you, don’t worry. I will walk you through the simple steps so that you can make your own scrumptious apple pie from scratch. The best apple pie starts with good baking apples. You want to use apples that are firm enough to hold up to the heat of baking, so that they don’t cook down into mush.</blog-info>
+</blog>
+
+<blog id="blog2">
+    <title>Fruit Salad Cake</title>
+    <publisher>Reynan Yap</publisher>
+    <date>02/25/2022</date>
+    <time>9:30</time>
+    <viewer>1k</viewer>
+    <blog-info>Fruit Sala Cake is moist, rich but not too sweet and very easy to make. If you are craving for cake and you have a can of fruit sala in your pantry, you can easily whip up this cake recipe. It is simple and quick to make and you’ll be amaze how delicious it is. My mom made this all the time when we were growing up. It is a versatile recipe that at times she’ll use canned peaches or pineapple. I guess I got the habit from my mom, I like to stock up my pantry with a few canned goods like fruit salad so whenever I need it, it is already on hand. Fruitcakes are typically served in celebration of weddings and Christmas. Given their rich nature, fruitcakes are most often consumed on their own, as opposed to with condiments (such as butter or cream).</blog-info>
+</blog>
+
+<blog id="blog3">
+    <title>Buko Pie</title>
+    <publisher>Reynan Yap</publisher>
+    <date>01/27/2022</date>
+    <time>1:30</time>
+    <viewer>34k</viewer>
+    <blog-info>Buko Pie, sometimes anglicized as coconut pie, is a traditional Filipino baked young coconut (malauhog) custard pie. It is considered a specialty in the city of Los Baños, Laguna located on the island of Luzon. Buko Pie is made with young coconuts (buko in Tagalog), and uses sweetened condensed milk, which makes it denser than cream-based custard pies. There are also variations of the pie, which are similar but use slightly different ingredients, such as macapuno pie, that uses macapuno, special type of coconut that is thick and sticky. The pie was originally a delicacy only available in the Philippines, but blast freezing technology has allowed buko pie-makers the ability to export. As it has become easier to transport and more accessible around the world, people are able to buy it as a pasalubong or homecoming present after having visited the Philippines.[5] Buko pie is traditionally plain, but nowadays flavorings such as pandan, vanilla, or almond essences are used.</blog-info>
+</blog>
+
+</baking>
